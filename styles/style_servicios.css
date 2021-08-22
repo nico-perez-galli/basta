@@ -1,0 +1,170 @@
+body {
+    margin: 0px;
+    
+}
+
+
+p {
+    font-family:'Montserrat', sans-serif;
+}
+
+
+
+.servicios {
+
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 80px 420px 80px 420px;
+    gap: 0px 38px;
+    padding: 16px;
+    }
+
+
+
+
+
+
+
+.servicios div {
+    
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-weight: 800px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(66,165,245);
+    background: linear-gradient(120deg, rgba(66,165,245,1) 0%, rgba(255,255,255,1) 100%);
+    padding: 4px;
+    border-radius: 4px 12px 4px 12px;
+    box-shadow: 0px 3px 4px 0px;
+    transition-property: background-color; 
+    transition-property: box-shadow;
+    transition-property: font-size;
+    transition-timing-function: ease-in;
+    transition-duration: 0.8s;
+    transition-duration: 0.8s;
+
+    
+}
+
+
+
+.servicios div:hover {
+    border: 2px solid #000000 ;
+    border-radius: 0px 12px 0px 12px;
+    background-color: rgb(66,165,245);
+    background: linear-gradient(240deg, rgb(245, 66, 215) 0%, rgba(255,255,255,1) 100%);
+    box-shadow: 0px 3px 4px 0px;
+    border-radius: 12px 4px 12px 4px;
+    font-size: 45px;
+    
+}
+
+.individuales {
+    background-image: url(../images/servicios/Individual-Class.jpg.crdownload);
+    background-size: cover;
+    background-position: center  ;
+    transition-property: background-image;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+.individuales:hover {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmcheWIvR0NB9r53kd5TZsEoqMexPFAyXE-P4tqRyxoDzGdhy1wcUXEvQFMkZRL9hG6BA&usqp=CAU);
+    
+}
+
+.grupales {
+    background-image: url(../images/servicios/group1.jpg.crdownload);
+    background-size: cover;
+    background-position: center  ;
+    transition-property: background-image;
+    transition-duration: 1s;
+}
+
+.grupales:hover {
+    background-image: url(../images/servicios/group2.jpg);
+    
+}
+
+.empresas {
+    background-image: url(../images/servicios/business.jpg);
+    background-size: cover;
+    background-position: center  ;
+    transition-property: background-image;
+    transition-duration: 1s;
+}
+
+.empresas:hover {
+    background-image: url(https://st3.depositphotos.com/1700950/i/600/depositphotos_160394866-stock-photo-business-people-shaking-hands-finishing.jpg);
+
+    background-size: cover;
+    background-position: center  ;
+    transition-property: background-image;
+    transition-duration: 1s;
+}
+
+
+.traducciones {
+    background-image: url(../images/servicios/translations.jpg);
+    background-size: cover;
+    background-position: center  ;
+    transition-property: background-image;
+    transition-duration: 1s;
+}
+
+.traducciones:hover {
+    background-image: url(https://maxtranslation.com/wp-content/uploads/2020/05/translation-company.jpg);
+
+    background-size: cover;
+    background-position: center  ;
+    transition-property: background-image;
+    transition-duration: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.servicios p {
+    
+    display: flex;
+    justify-content: left;
+    align-items: top;
+    font-weight: 100px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(246,247,255);
+    padding: 4px;
+    border-radius: 0px 12px 0px 12px;
+    box-shadow: 0px 3px 4px 0px;
+    
+}
+
+
+
+
+
+
+footer div span {
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+}
